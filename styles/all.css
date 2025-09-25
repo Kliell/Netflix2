@@ -11,10 +11,14 @@
     width: 100%;
     height: 400px;
     padding: 10px 0px;
-    background-color: red;
+    background: #000000;
+    background: linear-gradient(90deg, rgba(0, 0, 0, 1) 0%, rgba(245, 245, 245, 0) 100%);;
     background-image: url(../images/series/b9d9a6cb0cf523f131b6b153a675ab5956dd63f7.png);
     display:flex;
     background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
 }
 .bannertexto{
     width: 50%;
