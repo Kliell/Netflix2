@@ -1,0 +1,25 @@
+:root{
+--corPrimaria: rgb(189,0,0);
+--corSecundaria: rgb(26,26,26);
+}
+
+*{
+    margin: 0%;
+    padding: 0%;
+}
+.banner{
+    width: 100%;
+    height: 400px;
+    padding: 10px 0px;
+    background-color: red;
+    background-image: url(../images/series/b9d9a6cb0cf523f131b6b153a675ab5956dd63f7.png);
+    display:flex;
+    background-position: top;
+}
+.bannertexto{
+    width: 50%;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap:10px;
+}
